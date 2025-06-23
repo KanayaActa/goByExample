@@ -1,0 +1,8 @@
+services:
+  gobyexample:
+    build: .
+    container_name: gobyexample
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
