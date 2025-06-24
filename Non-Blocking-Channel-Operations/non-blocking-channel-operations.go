@@ -27,6 +27,6 @@ func main() {
 	case sig := <-signals:
 		fmt.Println("received signal", sig)
 	default:
-		fmt.Println("no activity")
+		fmt.Println("nyan mayu")
 	}
 }
